@@ -654,3 +654,28 @@ a {
     color: #e10600;
     text-decoration: underline;
 }
+
+.news-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 20px 0 30px;
+}
+
+.filter-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #222;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 14px;
+    transition: 0.3s ease;
+}
+
+.filter-button:hover,
+.filter-button.active {
+    background: #e10600;
+    color: #fff;
+}

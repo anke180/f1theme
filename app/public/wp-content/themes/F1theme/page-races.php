@@ -62,6 +62,17 @@
                     Grand Prix
                 </div>
             </article>
+            <article class="race-card">
+                <div class="race-round">05</div>
+                <div class="race-info">
+                    <span class="race-country">Nederland</span>
+                    <h3>Dutch Grand Prix</h3>
+                    <p>Zandvoort Circuit</p>
+                </div>
+                <div class="race-status">
+                    Grand Prix
+                </div>
+            </article>
         </div>
         <p class="page-note">
             Dit is een voorbeeldweergave en geen volledige
