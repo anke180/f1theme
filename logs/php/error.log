@@ -1,0 +1,22 @@
+[25-Nov-2026 12:08:16 UTC] PHP Parse error:  syntax error, unexpected token "function" in C:\Users\ankev\Local Sites\f1theme\app\public\wp-content\plugins\f1-plugin\index.php on line 12
+[25-Nov-2026 12:08:28 UTC] PHP Parse error:  syntax error, unexpected token "function" in C:\Users\ankev\Local Sites\f1theme\app\public\wp-content\plugins\f1-plugin\index.php on line 12
+[25-Nov-2026 12:08:41 UTC] PHP Parse error:  syntax error, unexpected token "function" in C:\Users\ankev\Local Sites\f1theme\app\public\wp-content\plugins\f1-plugin\index.php on line 12
+[25-Nov-2026 12:10:52 UTC] PHP Parse error:  syntax error, unexpected token "function" in C:\Users\ankev\Local Sites\f1theme\app\public\wp-content\plugins\f1-plugin\index.php on line 12
+[25-Nov-2026 12:11:21 UTC] PHP Parse error:  syntax error, unexpected token "function" in C:\Users\ankev\Local Sites\f1theme\app\public\wp-content\plugins\f1-plugin\index.php on line 12
+[25-Nov-2026 12:11:49 UTC] PHP Parse error:  syntax error, unexpected token "<" in C:\Users\ankev\Local Sites\f1theme\app\public\wp-content\plugins\f1-plugin\index.php on line 13
+[25-Nov-2026 12:45:42 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\ankev\Local Sites\f1theme\app\public\wp-content\plugins\f1-plugin\index.php on line 16
+[25-Nov-2026 12:47:58 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "f1_races_weather_plugin" not found or invalid function name in C:\Users\ankev\Local Sites\f1theme\app\public\wp-includes\class-wp-hook.php:353
+Stack trace:
+#0 C:\Users\ankev\Local Sites\f1theme\app\public\wp-includes\class-wp-hook.php(377): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\ankev\Local Sites\f1theme\app\public\wp-includes\plugin.php(523): WP_Hook->do_action(Array)
+#2 C:\Users\ankev\Local Sites\f1theme\app\public\wp-includes\general-template.php(3473): do_action('wp_body_open')
+#3 C:\Users\ankev\Local Sites\f1theme\app\public\wp-content\themes\F1theme\header.php(11): wp_body_open()
+#4 C:\Users\ankev\Local Sites\f1theme\app\public\wp-includes\template.php(880): require_once('C:\\Users\\ankev\\...')
+#5 C:\Users\ankev\Local Sites\f1theme\app\public\wp-includes\template.php(815): load_template('C:\\Users\\ankev\\...', true, Array)
+#6 C:\Users\ankev\Local Sites\f1theme\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\Users\ankev\Local Sites\f1theme\app\public\wp-content\themes\F1theme\page-races.php(1): get_header()
+#8 C:\Users\ankev\Local Sites\f1theme\app\public\wp-includes\template-loader.php(132): include('C:\\Users\\ankev\\...')
+#9 C:\Users\ankev\Local Sites\f1theme\app\public\wp-blog-header.php(19): require_once('C:\\Users\\ankev\\...')
+#10 C:\Users\ankev\Local Sites\f1theme\app\public\index.php(17): require('C:\\Users\\ankev\\...')
+#11 {main}
+  thrown in C:\Users\ankev\Local Sites\f1theme\app\public\wp-includes\class-wp-hook.php on line 353

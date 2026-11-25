@@ -35,7 +35,7 @@
             <a href="<?php echo esc_url(home_url('/teams/')); ?>">
                 Teams
             </a>
-            <a>
+            <a href="<?php echo esc_url(home_url('/coureurs/')); ?>">
                 Coureurs
             </a>
             <a href="<?php echo esc_url(home_url('/races/')); ?>">
